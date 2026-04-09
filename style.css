@@ -24,3 +24,15 @@ header, footer {
     padding: 16px;
     margin-bottom: 16px
 }
+
+.status {
+    font-weight: bold;
+}
+
+.available {
+    color: #059669;
+}
+
+.borrowed {
+    color: #dc2626;
+}
