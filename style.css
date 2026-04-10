@@ -22,7 +22,6 @@ header, footer {
     border: 1px solid #e5e7eb;
     border-radius: 8px;
     padding: 16px;
-    margin-bottom: 16px
 }
 
 .status {
@@ -46,4 +45,12 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px
 }
