@@ -8,7 +8,13 @@ body {
     font-family: sans-serif;
     background-color: #e4e6e7;
     color: #2c4272;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
 }
+
+
 
 header, footer {
     background-color: #1f2937;
@@ -54,3 +60,18 @@ header .container {
     padding-top: 20px;
     padding-bottom: 20px
 }
+
+main{
+    padding: 40px 0;
+    flex: 1;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+}
+
+
+
+
+
