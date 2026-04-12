@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: gogglesans, "Google Sans", "Inter", sans-serif;
     background-color: #e4e6e7;
     color: #2c4272;
 
@@ -14,6 +14,24 @@ body {
     min-height: 100vh
 }
 
+.logo{
+    height: 30px
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+.btn {
+    background-color: #059669;
+    color: white;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+}
 
 
 header, footer {
