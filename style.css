@@ -9,3 +9,12 @@ body {
     background-color: #dfe8f1;
     color: rgb(41, 43, 70);
 }
+
+
+header,
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 24px;
+    text-align: center
+}
