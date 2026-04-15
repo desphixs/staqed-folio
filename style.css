@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: googlesans, "Google Sans";
     background-color: #dfe8f1;
     color: rgb(41, 43, 70);
     display: flex;
@@ -70,4 +70,26 @@ main {
 
 h2 {
     font-size: 1.8rem
+}
+
+
+.logo {
+    height: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px
+}
+
+
+.btn {
+    background-color: #059669;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: googlesans, "Google Sans";
+    border: none;
 }
