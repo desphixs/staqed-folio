@@ -93,3 +93,34 @@ a {
     font-family: googlesans, "Google Sans";
     border: none;
 }
+
+
+.hero {
+    background-color: white;
+    padding: 80px 0;
+    margin-bottom: 60px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.hero-content button {
+    margin-top: 20px;
+}
+
+.hero-img {
+    width: 300px;
+    height: 300px
+}
